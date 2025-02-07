@@ -1,0 +1,93 @@
+/* 🌟 Fondo con efecto suave */
+body {
+    background: linear-gradient(to right, #b0e5ff, #a4e7ff);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* 🌟 Tarjeta elegante con efecto glassmorphism */
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    width: 450px;
+}
+
+/* 🎨 Estilos del título */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 🎨 Contenedor del color */
+.color-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🎨 Cuadro de color */
+.color-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.color-box:hover {
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Contenedor HEX alineado en columna */
+.hex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Botón más elegante */
+.copy-btn {
+    background: linear-gradient(135deg, #333, #555);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.copy-btn:hover {
+    background: linear-gradient(135deg, #444, #666);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.copy-btn:active {
+    transform: scale(1);
+}
+
+
+/* 🎚️ Estilos para los inputs */
+.custom-range {
+    accent-color: #ddd;
+}
+
+.custom-input {
+    font-size: 1.2rem;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
